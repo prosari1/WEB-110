@@ -1,0 +1,88 @@
+body {
+  background-color: rgba(215, 213, 243, 0.876);
+  margin: 20px 100px;
+  border: 8px inset rgb(67, 20, 129);
+  padding: 20px;
+  font-size: 17px;
+  color: rgb(12, 60, 92);
+  font-family: "essonnes-display", Georgia, Times, serif;
+}
+
+h1 {
+  color: rgb(12, 60, 92);
+  font-size: 49px ;
+  text-align: center;
+}
+
+.heading-milestone{
+  text-align: center;
+}
+
+.title-project {
+  text-align: center;
+}
+
+footer {  
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: rgb(19, 204, 179);
+}
+a:link {
+  color: rgb(100, 4, 163);
+}
+a:visited {
+	color: rgba(188, 29, 216, 0.89);
+}
+
+/* Image */
+
+figcaption {
+  font-style: italic;
+}
+
+/* Table Recipe */
+
+table {
+  background-color: rgba(214, 241, 241, 0.972);
+  border-collapse: collapse;
+  width: 100%;
+  padding: 20px;
+  font-family: "essonnes-display", Georgia, Times, serif;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 6px;
+}
+
+table tr:nth-child(even){
+  background-color: rgb(192, 191, 248);
+}
+
+table tr:nth-child(odd){
+  background-color: rgb(215, 214, 248);
+}
+
+table tr:hover {
+  background-color: rgb(141, 139, 211);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(132, 131, 240);
+  color: white;
+}
+
+.preparation{
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
